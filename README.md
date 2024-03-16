@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+1) Scan each product
+2) Make hash of product and there quantity
+3) fetch pricing
+4) 

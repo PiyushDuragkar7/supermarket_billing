@@ -20,7 +20,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_15_182612) do
 
   create_table "pricings", charset: "utf8mb4", force: :cascade do |t|
     t.integer "item_id"
-    t.float "unit_price"
     t.float "bulk_price"
     t.integer "bulk_quantity"
     t.datetime "created_at", null: false

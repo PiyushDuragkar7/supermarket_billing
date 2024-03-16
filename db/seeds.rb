@@ -16,10 +16,10 @@ def create_item
 end
 
 def create_pricing
-  Pricing.create(item_id: 1,unit_price:50, bulk_price:"130", bulk_quantity: 3)
-  Pricing.create(item_id: 2,unit_price:30, bulk_price:"45", bulk_quantity: 2)
-  Pricing.create(item_id: 3,unit_price:20, bulk_price:"0", bulk_quantity: 1)
-  Pricing.create(item_id: 4,unit_price:15, bulk_price:"0", bulk_quantity: 1)
+  Pricing.create(item_id: 1, bulk_price:"130", bulk_quantity: 3)
+  Pricing.create(item_id: 2, bulk_price:"45", bulk_quantity: 2)
+  Pricing.create(item_id: 3, bulk_price:"0", bulk_quantity: 1)
+  Pricing.create(item_id: 4, bulk_price:"0", bulk_quantity: 1)
 end
 
 create_item
